@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PlantMonitorAA</title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>Plant Monitor AA</h1>
+      <h2>Informações de monitoramento</h2>
+    </header>
+    <div id="content">
+      <div id="monitor-data" class="data-div">
+        <div id="lightness-div" class="sensor-data-div"></div>
+        <div id="temperature-div" class="sensor-data-div"></div>
+        <div id="moisture-div" class="sensor-data-div"></div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
