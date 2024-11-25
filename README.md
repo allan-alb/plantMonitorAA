@@ -1,4 +1,4 @@
-# Plant Monitor 🌱
+# Plant Monitor AA 🌱
 
 **Plant Monitor** is a Node.js server application designed to connect with an Arduino board via a serial port. This project allows you to monitor plants by collecting data from sensors attached to the Arduino. The application logs environmental data, such as light sensitivity, temperature, and soil moisture, to a file for easy tracking and analysis.
 
