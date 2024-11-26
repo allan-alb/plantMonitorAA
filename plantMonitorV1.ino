@@ -1,8 +1,8 @@
 #include <arduino-timer.h>
 
-#define lightReadInterval 10000
-#define temperatureReadInterval 20000
-#define moistureReadInterval 60000
+#define lightReadInterval 7200000
+#define temperatureReadInterval 7200000
+#define moistureReadInterval 21600000
 
 // Timer config
 Timer<3> timer;
