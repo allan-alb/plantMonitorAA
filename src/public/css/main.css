@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  background: #222;
+  color: #fff;
 }  
 
 body{
@@ -41,6 +43,6 @@ body{
 }
 
 .date-text {
-  color: #333;
+  color: #aaa;
   margin-left: 5px;
 }
